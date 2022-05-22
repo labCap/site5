@@ -1,0 +1,78 @@
+@media (max-width: 420px) {
+    .header {
+        background: url(../img/bg-header1.png) no-repeat center top;
+    }
+
+    .header__inner {
+        width: 330px;
+    }
+
+    .btn__menu {
+        display: block;
+        /* background-color: #fff; */
+    }
+
+    .menu__list {
+        display: none;
+    }
+
+    .menu__list {
+        display: none;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+    }
+
+    .menu__list a {
+        display: block;
+        padding: 15px 0;
+        background: #332b28b9;
+    }
+
+    .menu__list li {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .content__inner {
+        background-color: #332b28a0;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .about__inner {
+
+        display: block;
+    }
+
+    .about__img {
+        padding: 0;
+    }
+
+    .pets__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pets-item {
+
+        margin: 20px 0;
+    }
+
+    .donation__inner {
+        display: block;
+    }
+
+    .img img {
+        width: 300px;
+    }
+
+    .footer__inner {
+        display: block;
+    }
+}
