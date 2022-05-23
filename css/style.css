@@ -117,6 +117,7 @@ body a {
           align-items: center;
   position: fixed;
   top: 0;
+  z-index: 100;
   width: 1170px;
   background-color: #332b28b3;
   padding: 10px;
@@ -272,9 +273,6 @@ body a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
 }
 
 .pets__btn {
@@ -315,6 +313,7 @@ body a {
 .pets-item {
   background-color: #fafafa;
   max-width: 270px;
+  margin: 0 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -331,6 +330,12 @@ body a {
   border-radius: 10px;
 }
 
+.pets-item__slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .pets-item__title {
   font-family: 'Lora', serif;
   font-weight: 400;
@@ -339,7 +344,7 @@ body a {
 }
 
 .pets-item__btn {
-  margin: 0 0 20px 0;
+  margin: 0 auto 20px;
   width: 205px;
   height: 52px;
   border-radius: 25px;
