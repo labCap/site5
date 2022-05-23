@@ -10,7 +10,7 @@ $(function () {
         nextArrow: '<button type="button"><img src="img/right.png"></button>',
         responsive: [
             {
-                breakpoint: 400,
+                breakpoint: 500,
                 settings: { slidesToShow: 1, slidesToScroll: 1, }
             }
         ]

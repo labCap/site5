@@ -3,9 +3,6 @@
         background: url(../img/bg-header1.png) no-repeat center top;
     }
 
-    .header__inner {
-        width: 330px;
-    }
 
     .btn__menu {
         display: block;
@@ -61,7 +58,7 @@
 
     .pets-item {
 
-        margin: 20px 50px;
+        margin: 20px 57px;
     }
 
     .donation__inner {
